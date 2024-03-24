@@ -8,7 +8,7 @@ div#container
 body
 {
    background-color: #265A88;
-   background-image: url(images/index_bkgrnd.png);
+   background-image: url(images/news_bkgrnd.png);
    background-repeat: repeat-x;
    color: #000000;
    font-family: Arial;
@@ -209,11 +209,100 @@ body
    background-image: none;
    box-sizing: border-box;
 }
-#InlineFrame1
+#Blog1
 {
-   border: 1px solid transparent;
-   opacity: 0.70;
+   background-color: transparent;
+   border-width: 0;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.2;
    margin: 0;
+   text-align: left;
+}
+#Blog1 .blogitem
+{
+   background-color: #EEEEEE;
+   margin-bottom: 6px;
+   padding: 0px;
+   text-align: left;
+}
+#Blog1 .blogdate
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+   color: #000000;
+}
+#Blog1 .blogsubject, #Blog1 .blogsubject a:link, #Blog1 .blogsubject a:visited, #Blog1 .blogsubject a:hover
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+   color: #666666;
+   text-decoration: none;
+}
+#Blog1 .blogcomments, #Blog1 .blogcomments a:link, #Blog1 .blogcomments a:visited, #Blog1 .blogcomments a:hover
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   color: #000000;
+   text-decoration: underline;
+}
+#Blog1 .blogcomments
+{
+   text-decoration: none;
+}
+#Blog1 .no-thumb
+{
+   display: none;
+}
+#Blog1 .blogitem
+{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#Blog1 .blogsubject
+{
+   margin: 0;
+   padding: 0;
+   display: block;
+}
+#Blog1 .blogbutton
+{
+    float: right;
+    display: inline-block;
+    font-family: Arial;
+    text-decoration: none;
+    display: inline-block;
+    padding: 4px 12px;
+    margin: 6px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #333333;
+    text-shadow: 0px 1px 1px rgba(255,255,255,0.75);
+    background-color: #f5f5f5;
+    background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+    background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+    background-repeat: repeat-x;
+    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border: 1px solid #cccccc;
+    border-bottom-color: #b3b3b3;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .2), 0 1px 2px rgba(0, 0, 0, .05);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .2), 0 1px 2px rgba(0, 0, 0, .05);
+    box-shadow: inset 0px 1px 0px rgba(255,255,255,0.2), 0px 1px 2px rgba(0,0,0,0.05);
 }
 #PageFooter1
 {
