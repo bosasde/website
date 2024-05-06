@@ -209,12 +209,6 @@ body
    background-image: none;
    box-sizing: border-box;
 }
-#InlineFrame1
-{
-   border: 1px solid transparent;
-   opacity: 0.70;
-   margin: 0;
-}
 #PageFooter1
 {
    background-color: #265A88;
